@@ -5,12 +5,12 @@ public class CarConstructor {
 	String color;
 	boolean isAutomatic;
 	
-	CarConstructor()
+	CarConstructor()//ZERO-ARG CONSTRUCTOR
 	{
 		
 	}
 	
-	CarConstructor(String color,boolean isAutomatic)
+	CarConstructor(String color,boolean isAutomatic)//PARAMETARIZE CONSTRUCTOR
 	{
 		this.color=color;
 		this.isAutomatic=isAutomatic;
